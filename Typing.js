@@ -9,7 +9,7 @@ let t;
 let timeCalculator=[];
 let startStorp;
 
-const url='http://api.quotable.io/random';
+const url='https://api.quotable.io/random';
 let words;
 
 let inputWords;
