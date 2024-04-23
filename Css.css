@@ -1,0 +1,118 @@
+*{
+     box-sizing: border-box;
+     margin: 0px;
+
+}
+.MainDiv
+{
+      /* border: 10px solid ; */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(230, 227, 227);
+      position: relative;
+     
+     
+      
+}
+
+.timer
+{
+      font-size: larger;
+      font-weight: bolder;
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      /* border: 1px solid; */
+}
+
+.Content
+{
+    
+     /* border: 1px solid red; */
+     padding: 10px;
+     border-radius: 10px;
+     width: 400px;
+     max-width: 90vw;
+     margin: 20px;
+     /* position: relative; */
+    /* background-color: rgb(229, 226, 226); */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     
+}
+
+#quote
+{
+      /* border: 1px solid blue; */
+      padding: 10px 5px;
+      border-radius: 10px;
+      /* margin: 10px; */
+      margin-bottom: 10px;
+      width: 100%;
+      word-wrap: normal;
+      
+
+}
+
+
+#textInput
+{
+     /* border: 1px solid blue; */
+     padding: 10px 5px;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     width: 100%;
+     resize: none;
+     outline: none;
+}
+
+
+#textInput:focus
+{
+      border: 1px solid black;
+}
+
+.correct
+{
+      color: green;
+}
+
+.inCorrect
+{
+      color: red;
+      text-decoration: underline;
+}
+
+/* .span
+{
+      padding-left: 3px;
+} */
+
+.full
+{
+     width: 100%;
+     overflow-wrap:break-word;
+     
+}
+
+
+.timeClass
+{
+      /* border: 1px solid red; */
+      padding: 5px;
+      margin: 5px;
+}
+
+
+@media screen and (max-width:700px) {
+     .MainDiv
+     {
+          flex-direction: column;
+     }
+     
+}
+
+
+
